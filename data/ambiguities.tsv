@@ -1,0 +1,8 @@
+ambiguity_id	locus	position_zero_based	raw_ivtff	primary_surface	alternative_surface	category	action	evidence
+AMBIG-0001	f30v.7	0	ch[a:o]kchy	chakchy	chokchy	PALEOGRAPHIC_AMBIGUITY	EXCLUDE_FROM_ZERO_CORE	IT/GC/FG and scan favor o; Currier and ZL primary favor a; do not force a correction.
+AMBIG-0002	f79r.19	8	sho[t:k]y	shoty	shoky	PALEOGRAPHIC_AMBIGUITY	EXCLUDE_FROM_ZERO_CORE	ZL explicitly records t:k; IT/GC/FG/CD unanimously use k, but the manuscript stroke remains the object of the disagreement.
+AMBIG-0003	f6v.19	1	kchos	kchos	kchor	PALEOGRAPHIC_AMBIGUITY	EXCLUDE_FROM_ZERO_CORE	ZL and IT read final s; GC/FG/CD read final r; majority vote alone is not a palaeographic proof.
+AMBIG-0004	f39v.5	13	ofchy	ofchy	opchy	PALEOGRAPHIC_ALLOGRAPH_AMBIGUITY	EXCLUDE_FROM_ZERO_CORE	ZL and CD read f; IT/GC/FG read p; the scan shows no separate erasure or insertion and a 3:2 vote cannot establish identity.
+AMBIG-0005	f76r.23	10	olaiin	olaiin	olain	MINIM_COUNT_AMBIGUITY	EXCLUDE_FROM_ZERO_CORE	ZL preserves two internal i; IT/GC/CD preserve one; FG is not a qualified full mapping. Minims are visually adjacent and no scribal correction is visible.
+AMBIG-0006	f79v.18	5	lcheey	lcheey	lsheey	PALEOGRAPHIC_BENCH_AMBIGUITY	EXCLUDE_FROM_ZERO_CORE	ZL and CD read ch; IT/GC/FG read sh; the scan does not justify resolving the 3:2 split by majority.
+AMBIG-0007	f49v.42	7	daisin	daisin	dairin or daiin	PALEOGRAPHIC_MINIM_AMBIGUITY	EXCLUDE_FROM_ZERO_CORE	Blind CUDA OCR 3/3=daiin; external coordinate reading=dairin; registered scan contains a faint middle sign

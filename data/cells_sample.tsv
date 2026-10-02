@@ -1,0 +1,20 @@
+record_id	folio	surface	symbolic_factor	assignment_tier
+f108r.10:0	f108r	taiin	a i i=>S5	STRICT_ACCEPTED
+f108r.10:1	f108r	shkeedy	k e e d=>S8	ENSEMBLE_OR_CHAIN_CANDIDATE
+f108r.10:2	f108r	qoteey	o t e e=>S8	STRICT_ACCEPTED
+f108r.10:3	f108r	oteey	t e e=>S8	STRICT_ACCEPTED
+f108r.10:4	f108r	yteol	t e o=>S4	STRICT_ACCEPTED
+f108r.10:5	f108r	ykeedy	k e e d=>S8	STRICT_ACCEPTED
+f108r.10:8	f108r	okeyty	k e y t=>S8	FORCED_TRANSCRIPTION_SYMBOLIC
+f108r.10:9	f108r	ody	d=>S8	STRICT_ACCEPTED
+f115r.23:0	f115r	dchey	ch e=>S8	STRICT_ACCEPTED
+f115r.23:1	f115r	keey	e e=>S8	STRICT_ACCEPTED
+f115r.23:2	f115r	qokeod	o k e o=>S2	STRICT_ACCEPTED
+f115r.23:3	f115r	chody	o d=>S8	STRICT_ACCEPTED
+f115r.23:6	f115r	checkhy	e ckh=>S8	STRICT_ACCEPTED
+f115r.23:7	f115r	qokeeey	o k e e e=>S8	STRICT_ACCEPTED
+f115r.23:8	f115r	keeey	e e e=>S8	STRICT_ACCEPTED
+f115r.23:9	f115r	lol	o=>S4	STRICT_ACCEPTED
+f115r.23:10	f115r	chedy	e d=>S8	ENSEMBLE_OR_CHAIN_CANDIDATE
+f115r.23:11	f115r	qokchedy	o k ch e d=>S8	STRICT_ACCEPTED
+f115r.23:12	f115r	ldy	d=>S8	STRICT_ACCEPTED

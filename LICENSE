@@ -1,0 +1,47 @@
+Voynich Decode — licensing by material type
+
+1. Software
+
+Unless a file states otherwise, source code in `src/`, `scripts/`, and `tests/`
+is licensed under the MIT License:
+
+Copyright (c) 2026 Leonid Molchanov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+2. Original documentation and copyrightable project annotations
+
+Copyright (c) 2026 Leonid Molchanov
+
+Unless a file states otherwise, original documentation and copyrightable
+project annotations are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+This grant does not assert copyright over facts, ideas, mathematical methods,
+third-party transcription content or material in the public domain.
+For attribution guidance, see docs/ATTRIBUTION.md.
+
+3. Third-party material
+
+Scans and scan-derived crops of Beinecke MS 408 are not relicensed by this
+file. Their source is Yale University Library and their applicable rights and
+terms remain with the source institution. Third-party transcriptions,
+publications, fonts, and imported algorithms retain their own licenses and
+attribution requirements. See `docs/DATA_PROVENANCE.md`.

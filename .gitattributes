@@ -1,0 +1,6 @@
+* text=auto
+# A trailing TSV delimiter represents an empty final field, not stray whitespace.
+*.tsv text eol=lf whitespace=-blank-at-eol
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf

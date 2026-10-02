@@ -1,0 +1,17 @@
+{
+  "schema": "voynich-minimal-demo-v1",
+  "scope": "selected-verification-data",
+  "corrections_in_demo": 2,
+  "open_ambiguities": 7,
+  "sample_cells": 19,
+  "selection": "All available factorization rows for f108r.10 and f115r.23; purposive article examples, not a random or complete page sample. Missing aligned cells are not reconstructed.",
+  "full_denominator_reported_by_project": 23859,
+  "full_denominator_included": false,
+  "full_strict_release_included": false,
+  "full_generator_included": false,
+  "source_transcription_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "corrected_full_transcription_sha256": "146334424138cd8ee7bd745ea221187fd4f6006a780e746cb3cf35457c3361b6",
+  "source_full_factorization_sha256": "5548190e08cc7a78bbe7e250aacc0f7673adec6b503201e1d9cb73371610cf8f",
+  "source_attribution": "Zandbergen–Landini ZL3b; EVA denotes signs, not a translation.",
+  "source_url": "https://www.voynich.nu/transcr.html"
+}
