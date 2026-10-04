@@ -1,0 +1,80 @@
+
+### Running pipeline: FULL (n=23859) ###
+
+### Running pipeline: STRICT (n=23859) ###
+
+DONE. Wrote results.json
+
+==============================================================================
+[FULL]  n_tokens=23859  n_lines=4007  n_pairs=19852  K=10
+==============================================================================
+H1 (unigram)         = 2.1694 bits
+H2 (H[next|prev])    = 2.1023 bits
+MI adjacent (real)   = 0.0671 bits  (3.09% of H1)
+
+-- Q1: significance of adjacent MI vs 3 nulls --
+  Q1_null_global               null_mean=0.00292 null_sd=0.00391 z=  16.41  p=0.0010  null_range=[-0.00889,0.01525]
+  Q1_null_within_line          null_mean=0.02589 null_sd=0.00377 z=  10.93  p=0.0010  null_range=[0.00970,0.03623]
+  Q1_null_within_position      null_mean=0.05759 null_sd=0.00045 z=  21.11  p=0.0010  null_range=[0.05626,0.05936]
+
+-- Q2: higher-order conditional structure --
+  k=1  n_ctx_obs= 19852  H_k=2.1023  MI_k=0.0671  null_mean=0.0257 z=  10.88 p=0.0010
+  k=2  n_ctx_obs= 16089  H_k=2.0647  MI_k=0.1047  null_mean=0.0653 z=   6.31 p=0.0010
+  k=3  n_ctx_obs= 12571  H_k=1.9410  MI_k=0.2284  null_mean=0.1998 z=   3.53 p=0.0010
+  k=4  n_ctx_obs=  9390  H_k=1.6404  MI_k=0.5290  null_mean=0.5209 z=   0.71 p=0.2378
+
+-- Q3: positional vs sequential --
+  conditional MI | position (real) = 0.0185 bits (unconditional real MI = 0.0671)
+  vs Null-C (position-marginal-preserving) : null_mean=0.0098 z=11.15 p=0.0010
+    stratum 0 (0=med-med,1=med-final,2=init-med,3=init-final): n=12571 w=0.633 MI=0.0125
+    stratum 1 (0=med-med,1=med-final,2=init-med,3=init-final): n= 3518 w=0.177 MI=0.0164
+    stratum 2 (0=med-med,1=med-final,2=init-med,3=init-final): n= 3518 w=0.177 MI=0.0354
+    stratum 3 (0=med-med,1=med-final,2=init-med,3=init-final): n=  245 w=0.012 MI=0.1121
+
+-- Q4: body-explained vs neighbor-explained --
+  H(state)                 = 2.1694
+  H(state|body)            = 0.8565
+  H(state|body,prev_state) = 0.7766
+  real drop from neighbor  = 0.07996
+  null drop (shuffled prev, same sparsity): mean=0.07597 sd=0.00202 z=1.98 p=0.0250
+
+-- Q5: per-section / per-hand uniformity --
+  [section]
+  [hand]
+
+==============================================================================
+[STRICT]  n_tokens=23859  n_lines=4007  n_pairs=19852  K=10
+==============================================================================
+H1 (unigram)         = 2.1694 bits
+H2 (H[next|prev])    = 2.1023 bits
+MI adjacent (real)   = 0.0671 bits  (3.09% of H1)
+
+-- Q1: significance of adjacent MI vs 3 nulls --
+  Q1_null_global               null_mean=0.00314 null_sd=0.00401 z=  15.97  p=0.0010  null_range=[-0.00831,0.01663]
+  Q1_null_within_line          null_mean=0.02562 null_sd=0.00402 z=  10.32  p=0.0010  null_range=[0.01320,0.03765]
+  Q1_null_within_position      null_mean=0.05762 null_sd=0.00044 z=  21.36  p=0.0010  null_range=[0.05644,0.05961]
+
+-- Q2: higher-order conditional structure --
+  k=1  n_ctx_obs= 19852  H_k=2.1023  MI_k=0.0671  null_mean=0.0259 z=  10.63 p=0.0010
+  k=2  n_ctx_obs= 16089  H_k=2.0647  MI_k=0.1047  null_mean=0.0656 z=   6.60 p=0.0010
+  k=3  n_ctx_obs= 12571  H_k=1.9410  MI_k=0.2284  null_mean=0.1993 z=   3.43 p=0.0020
+  k=4  n_ctx_obs=  9390  H_k=1.6404  MI_k=0.5290  null_mean=0.5202 z=   0.80 p=0.2148
+
+-- Q3: positional vs sequential --
+  conditional MI | position (real) = 0.0185 bits (unconditional real MI = 0.0671)
+  vs Null-C (position-marginal-preserving) : null_mean=0.0097 z=11.00 p=0.0010
+    stratum 0 (0=med-med,1=med-final,2=init-med,3=init-final): n=12571 w=0.633 MI=0.0125
+    stratum 1 (0=med-med,1=med-final,2=init-med,3=init-final): n= 3518 w=0.177 MI=0.0164
+    stratum 2 (0=med-med,1=med-final,2=init-med,3=init-final): n= 3518 w=0.177 MI=0.0354
+    stratum 3 (0=med-med,1=med-final,2=init-med,3=init-final): n=  245 w=0.012 MI=0.1121
+
+-- Q4: body-explained vs neighbor-explained --
+  H(state)                 = 2.1694
+  H(state|body)            = 0.8565
+  H(state|body,prev_state) = 0.7766
+  real drop from neighbor  = 0.07996
+  null drop (shuffled prev, same sparsity): mean=0.07588 sd=0.00198 z=2.06 p=0.0200
+
+-- Q5: per-section / per-hand uniformity --
+  [section]
+  [hand]

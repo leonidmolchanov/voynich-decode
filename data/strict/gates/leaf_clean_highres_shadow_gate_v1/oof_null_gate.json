@@ -1,0 +1,216 @@
+{
+  "arms": {
+    "arm_a": {
+      "checks": {
+        "beats_all_999_nulls": true,
+        "calls": true,
+        "error_leaf_concentration": true,
+        "precision": true,
+        "wilson": true
+      },
+      "null_max_correct": 3217,
+      "null_median_correct": 3114,
+      "null_min_correct": 3018,
+      "observed": {
+        "calls": 8227,
+        "correct": 8216,
+        "error_physical_leaves": 11,
+        "errors": 11,
+        "max_error_leaf_share": 0.09090909090909091,
+        "precision": 0.9986629391029537,
+        "strata": {
+          "hand:1": {
+            "calls": 2744,
+            "correct": 2741,
+            "precision": 0.9989067055393586
+          },
+          "hand:2": {
+            "calls": 3374,
+            "correct": 3369,
+            "precision": 0.9985180794309425
+          },
+          "hand:3": {
+            "calls": 1823,
+            "correct": 1821,
+            "precision": 0.9989029072956664
+          },
+          "hand:4": {
+            "calls": 36,
+            "correct": 36,
+            "precision": 1.0
+          },
+          "hand:5": {
+            "calls": 138,
+            "correct": 137,
+            "precision": 0.9927536231884058
+          },
+          "hand:@": {
+            "calls": 112,
+            "correct": 112,
+            "precision": 1.0
+          },
+          "section:A": {
+            "calls": 9,
+            "correct": 9,
+            "precision": 1.0
+          },
+          "section:B": {
+            "calls": 2329,
+            "correct": 2325,
+            "precision": 0.9982825246887076
+          },
+          "section:C": {
+            "calls": 13,
+            "correct": 13,
+            "precision": 1.0
+          },
+          "section:H": {
+            "calls": 3262,
+            "correct": 3258,
+            "precision": 0.9987737584304108
+          },
+          "section:P": {
+            "calls": 286,
+            "correct": 286,
+            "precision": 1.0
+          },
+          "section:S": {
+            "calls": 1818,
+            "correct": 1816,
+            "precision": 0.9988998899889989
+          },
+          "section:T": {
+            "calls": 253,
+            "correct": 253,
+            "precision": 1.0
+          },
+          "section:conflict": {
+            "calls": 257,
+            "correct": 256,
+            "precision": 0.9961089494163424
+          }
+        },
+        "wilson_lower_95_one_sided": 0.9978164692429745
+      },
+      "pass": true,
+      "thresholds": {
+        "min_calls": 100,
+        "min_precision": 0.995,
+        "min_wilson": 0.99
+      }
+    },
+    "arm_b": {
+      "checks": {
+        "beats_all_999_nulls": true,
+        "calls": true,
+        "precision": true,
+        "wilson": true
+      },
+      "null_max_correct": 4242,
+      "null_median_correct": 4113,
+      "null_min_correct": 3993,
+      "observed": {
+        "calls": 11549,
+        "correct": 11524,
+        "error_physical_leaves": 21,
+        "errors": 25,
+        "max_error_leaf_share": 0.08,
+        "precision": 0.9978353104164863,
+        "strata": {
+          "hand:1": {
+            "calls": 3861,
+            "correct": 3851,
+            "precision": 0.9974099974099974
+          },
+          "hand:2": {
+            "calls": 4627,
+            "correct": 4619,
+            "precision": 0.9982710179381888
+          },
+          "hand:3": {
+            "calls": 2623,
+            "correct": 2617,
+            "precision": 0.9977125428898208
+          },
+          "hand:4": {
+            "calls": 58,
+            "correct": 58,
+            "precision": 1.0
+          },
+          "hand:5": {
+            "calls": 223,
+            "correct": 222,
+            "precision": 0.9955156950672646
+          },
+          "hand:@": {
+            "calls": 157,
+            "correct": 157,
+            "precision": 1.0
+          },
+          "section:A": {
+            "calls": 19,
+            "correct": 19,
+            "precision": 1.0
+          },
+          "section:B": {
+            "calls": 3160,
+            "correct": 3154,
+            "precision": 0.9981012658227848
+          },
+          "section:C": {
+            "calls": 14,
+            "correct": 14,
+            "precision": 1.0
+          },
+          "section:H": {
+            "calls": 4563,
+            "correct": 4556,
+            "precision": 0.9984659215428446
+          },
+          "section:P": {
+            "calls": 438,
+            "correct": 434,
+            "precision": 0.9908675799086758
+          },
+          "section:S": {
+            "calls": 2631,
+            "correct": 2625,
+            "precision": 0.9977194982896237
+          },
+          "section:T": {
+            "calls": 377,
+            "correct": 376,
+            "precision": 0.9973474801061007
+          },
+          "section:conflict": {
+            "calls": 347,
+            "correct": 346,
+            "precision": 0.9971181556195965
+          }
+        },
+        "wilson_lower_95_one_sided": 0.9969979528391026
+      },
+      "pass": true,
+      "thresholds": {
+        "min_calls": 200,
+        "min_precision": 0.99,
+        "min_wilson": 0.985
+      }
+    }
+  },
+  "implementation_sha256": "5399294b08d0aabb922a72ff9e469a33a99719e0384e67d6ca2627dfb629f74c",
+  "null_files": 999,
+  "null_merkle_sha256": "704acd9f8182f4b6252f2054ff08b5fb53e4607b393d0d45d810052c20ca7866",
+  "observed_sha256": "6381aa6f71dcbd0e677ae635313f9aad731873e924c89e7d8c976ed7490da785",
+  "passed_arms": [
+    "arm_a",
+    "arm_b"
+  ],
+  "protocol_sha256": "f9fdfb1f4e5899106bb4ce7332f436acd82ccc769260e3195bd997b2e133fc1e",
+  "schema": "LEAF_CLEAN_HIGHRES_OOF_NULL_GATE_V1",
+  "status": "PASS_HIGHRES_OOF_NULL_AUTHORIZE_TARGET_INFERENCE_ONLY",
+  "strict_core_mutated": false,
+  "strict_promotion_authorized": false,
+  "target_inferred": false,
+  "target_truth_opened": false
+}

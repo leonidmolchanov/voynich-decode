@@ -1,0 +1,382 @@
+{
+  "schema": "X_V10C_AMBIGUITY_YALE_IIIF_V1",
+  "source_manifest_url": "https://collections.library.yale.edu/manifests/2002046",
+  "source_manifest_local": "data/f57v_apparatus/source/yale_manifest_2002046.json",
+  "source_manifest_sha256": "317d58fd9ea90392a83d9858a91eada3d0b41416a3c835857dc0154bd123a309",
+  "canvas_painting_images_per_target": 1,
+  "public_msi_or_adjacent_spectral_canvas_found": false,
+  "note": "The official IIIF Presentation 3 manifest exposes one RGB painting annotation per target canvas; gray crops are IIIF transforms of the same RGB master, not independent MSI observations.",
+  "records": [
+    {
+      "blind_id": "X10C-002",
+      "record_id": "f102r2.20:2",
+      "folio": "f102r",
+      "iiif_service": "https://collections.library.yale.edu/iiif/2/1006251",
+      "info_url": "https://collections.library.yale.edu/iiif/2/1006251/info.json",
+      "native_size": [
+        8176,
+        3864
+      ],
+      "frozen_page_size": [
+        2048,
+        968
+      ],
+      "linear_gain_x": 3.9921875,
+      "native_region": [
+        5116,
+        1794,
+        1741,
+        1389
+      ],
+      "native_target_bbox": [
+        5908,
+        2455,
+        156,
+        68
+      ],
+      "native_tight_region": [
+        5791,
+        2404,
+        390,
+        170
+      ],
+      "full_url": "https://collections.library.yale.edu/iiif/2/1006251/full/full/0/default.jpg",
+      "full_path": "data/x_v10c_ambiguity_resolution/source/yale/f102r_native.jpg",
+      "full_sha256": "30fd529fc6bf8999d5be48024ee6a1676af55e8d66dc0a4f77993fe2565e9d94",
+      "color_region_url": "https://collections.library.yale.edu/iiif/2/1006251/5116,1794,1741,1389/full/0/default.tif",
+      "color_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-002_native_region.tif",
+      "color_region_sha256": "50ff964abdb813623fdbfe596ef0dfe832de37bf9d32d57d2f85684abaa8710b",
+      "gray_region_url": "https://collections.library.yale.edu/iiif/2/1006251/5116,1794,1741,1389/full/0/gray.png",
+      "gray_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-002_native_region_gray.png",
+      "gray_region_sha256": "f9e48538464f9af8cb26b2406eb0cf510646a9d76a5e60cf0a84a1f5024a5d26",
+      "tight_color_url": "https://collections.library.yale.edu/iiif/2/1006251/5791,2404,390,170/full/0/default.tif",
+      "tight_color_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-002_native_tight.tif",
+      "tight_color_sha256": "7ae847dc082ebefc45ddff33965adecefab9833972e25cfbbf44d50bf5309f2c",
+      "tight_gray_url": "https://collections.library.yale.edu/iiif/2/1006251/5791,2404,390,170/full/0/gray.png",
+      "tight_gray_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-002_native_tight_gray.png",
+      "tight_gray_sha256": "b929598a4338d0c8a7130fa0e62911cf05623c49f08ffcdc1261237ccc15d034",
+      "info_path": "data/x_v10c_ambiguity_resolution/source/yale/f102r_info.json",
+      "info_sha256": "dce4f784eb42d4d2cfbb6562dfa74d1e0b10f1de612bfabe504bcfb85ff30d6a",
+      "frozen_page_sha256": "bce0d7c405f2994f45b657ae1a8091d3ff118298955f959d57c075891e6c59d3",
+      "frozen_crop_sha256": "7aa55a5abe572472f770317ae1d9ad6a2aa1f22b1df4cdf9e758b67deb6fa96b"
+    },
+    {
+      "blind_id": "X10C-017",
+      "record_id": "f13r.1:8",
+      "folio": "f13r",
+      "iiif_service": "https://collections.library.yale.edu/iiif/2/1006098",
+      "info_url": "https://collections.library.yale.edu/iiif/2/1006098/info.json",
+      "native_size": [
+        2601,
+        3723
+      ],
+      "frozen_page_size": [
+        2048,
+        2931
+      ],
+      "linear_gain_x": 1.27001953125,
+      "native_region": [
+        1400,
+        93,
+        934,
+        778
+      ],
+      "native_target_bbox": [
+        1795,
+        429,
+        145,
+        105
+      ],
+      "native_tight_region": [
+        1686,
+        350,
+        363,
+        263
+      ],
+      "full_url": "https://collections.library.yale.edu/iiif/2/1006098/full/full/0/default.jpg",
+      "full_path": "data/x_v10c_ambiguity_resolution/source/yale/f13r_native.jpg",
+      "full_sha256": "454eb5f05db936ed0cf729c3881af0ded0993bc116246c6c8fd0c2789f4e9833",
+      "color_region_url": "https://collections.library.yale.edu/iiif/2/1006098/1400,93,934,778/full/0/default.tif",
+      "color_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-017_native_region.tif",
+      "color_region_sha256": "da521a643847fd1cd8a75b99a6f8116e58407f8310ada23213e6ec91eb4a7dcb",
+      "gray_region_url": "https://collections.library.yale.edu/iiif/2/1006098/1400,93,934,778/full/0/gray.png",
+      "gray_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-017_native_region_gray.png",
+      "gray_region_sha256": "f373e01e9cbf95ef2a990ad5f0a4ef232793fdd0747a2a2c98f99792e2169127",
+      "tight_color_url": "https://collections.library.yale.edu/iiif/2/1006098/1686,350,363,263/full/0/default.tif",
+      "tight_color_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-017_native_tight.tif",
+      "tight_color_sha256": "90b8495b5549990ad91908f51b4696bffead666624be4680e55ef1fdc008c1f0",
+      "tight_gray_url": "https://collections.library.yale.edu/iiif/2/1006098/1686,350,363,263/full/0/gray.png",
+      "tight_gray_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-017_native_tight_gray.png",
+      "tight_gray_sha256": "ea9a7187746b3afa5d1536dec19459626799749151080842c1ffc9234e4115db",
+      "info_path": "data/x_v10c_ambiguity_resolution/source/yale/f13r_info.json",
+      "info_sha256": "23e2371ad47b1da7aadd7ab6e77bd5022e8ce12e9c29642cbb629bdb2c284eae",
+      "frozen_page_sha256": "d1318ae63c940ef51d9bada8c34c9fd09e99d360ab680755be4cd8e3f3a8ffcb",
+      "frozen_crop_sha256": "747add43a97077f690d0c055834591955c9ff4b75d3edd27c15a411cc888c9ce"
+    },
+    {
+      "blind_id": "X10C-029",
+      "record_id": "f66r.38:0",
+      "folio": "f66r",
+      "iiif_service": "https://collections.library.yale.edu/iiif/2/1006192",
+      "info_url": "https://collections.library.yale.edu/iiif/2/1006192/info.json",
+      "native_size": [
+        2793,
+        3707
+      ],
+      "frozen_page_size": [
+        2048,
+        2718
+      ],
+      "linear_gain_x": 1.36376953125,
+      "native_region": [
+        46,
+        1575,
+        600,
+        600
+      ],
+      "native_target_bbox": [
+        319,
+        1848,
+        55,
+        55
+      ],
+      "native_tight_region": [
+        278,
+        1807,
+        137,
+        137
+      ],
+      "full_url": "https://collections.library.yale.edu/iiif/2/1006192/full/full/0/default.jpg",
+      "full_path": "data/x_v10c_ambiguity_resolution/source/yale/f66r_native.jpg",
+      "full_sha256": "47d6a239bb7dbdc8d5e1a2238f2e10cf533d8abb409338017761bd3aed0a7554",
+      "color_region_url": "https://collections.library.yale.edu/iiif/2/1006192/46,1575,600,600/full/0/default.tif",
+      "color_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-029_native_region.tif",
+      "color_region_sha256": "bf045bec156fcc1c3ad064de4a7dcd7b6ea56e64aa5cc347bf13c2c6816bafd9",
+      "gray_region_url": "https://collections.library.yale.edu/iiif/2/1006192/46,1575,600,600/full/0/gray.png",
+      "gray_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-029_native_region_gray.png",
+      "gray_region_sha256": "3591e969803d9f392b954b2baca3fca561c1cb103652c4c98daddbb59710730f",
+      "tight_color_url": "https://collections.library.yale.edu/iiif/2/1006192/278,1807,137,137/full/0/default.tif",
+      "tight_color_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-029_native_tight.tif",
+      "tight_color_sha256": "3e3ea90e40d9212af9471755c593671ac5b806f2fc5f7708ac2b55b3529307e5",
+      "tight_gray_url": "https://collections.library.yale.edu/iiif/2/1006192/278,1807,137,137/full/0/gray.png",
+      "tight_gray_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-029_native_tight_gray.png",
+      "tight_gray_sha256": "e1831d6254b56cd46c49c2c6c96915a676c973173d3339ab2df56f374a72ad50",
+      "info_path": "data/x_v10c_ambiguity_resolution/source/yale/f66r_info.json",
+      "info_sha256": "dec7d164d43ba3378902dd17346df4cdc95b4e8c816aae76f620d9e1e1388660",
+      "frozen_page_sha256": "a00a000e7c5f1717c4ce09ce260ed53b712b13ec3968f75c67d575c9a8e66e4e",
+      "frozen_crop_sha256": "4e97a7ed858460ee1e1f810269bd5c5613efadf33a2ac0c6b95108952604ee8c"
+    },
+    {
+      "blind_id": "X10C-052",
+      "record_id": "f85r1.6:0",
+      "folio": "f85r",
+      "iiif_service": "https://collections.library.yale.edu/iiif/2/1006228",
+      "info_url": "https://collections.library.yale.edu/iiif/2/1006228/info.json",
+      "native_size": [
+        2775,
+        3745
+      ],
+      "frozen_page_size": [
+        2048,
+        2764
+      ],
+      "linear_gain_x": 1.35498046875,
+      "native_region": [
+        0,
+        451,
+        943,
+        644
+      ],
+      "native_target_bbox": [
+        333,
+        740,
+        168,
+        66
+      ],
+      "native_tight_region": [
+        207,
+        690,
+        420,
+        166
+      ],
+      "full_url": "https://collections.library.yale.edu/iiif/2/1006228/full/full/0/default.jpg",
+      "full_path": "data/x_v10c_ambiguity_resolution/source/yale/f85r_native.jpg",
+      "full_sha256": "630363719d71b356384a71aaded860df772fd23ad28dd8e6dc2db9901b6e08a1",
+      "color_region_url": "https://collections.library.yale.edu/iiif/2/1006228/0,451,943,644/full/0/default.tif",
+      "color_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-052_native_region.tif",
+      "color_region_sha256": "7c14d34e0cadbcc483c09ff4bd0672c4cef712132ce333e408c1db61d7f6055d",
+      "gray_region_url": "https://collections.library.yale.edu/iiif/2/1006228/0,451,943,644/full/0/gray.png",
+      "gray_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-052_native_region_gray.png",
+      "gray_region_sha256": "9573f2e4ac531a4c86aaf382a91986f6c3c4f41630fe43d2cd71369f6470f0be",
+      "tight_color_url": "https://collections.library.yale.edu/iiif/2/1006228/207,690,420,166/full/0/default.tif",
+      "tight_color_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-052_native_tight.tif",
+      "tight_color_sha256": "a672c7daa42eb35e3925d0b037f0bffefd574aa36c94c94d0cc74f4abc2edc2d",
+      "tight_gray_url": "https://collections.library.yale.edu/iiif/2/1006228/207,690,420,166/full/0/gray.png",
+      "tight_gray_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-052_native_tight_gray.png",
+      "tight_gray_sha256": "416b2a48f7ec1adafde1e5fd36b0931d0d5ad4e60c86c48ab3da711498f708b6",
+      "info_path": "data/x_v10c_ambiguity_resolution/source/yale/f85r_info.json",
+      "info_sha256": "81eaa3e2e0edbe0e5eab019f6605b12f597dc5be724b56eb047237411192cac9",
+      "frozen_page_sha256": "162dba7bfec98c4f94e8b8e68a684016c716189a6a5738c7f8d2311f2ba7f2c3",
+      "frozen_crop_sha256": "3a06734c5d9847153483ec39af329f5c51d37f00c7e5d3b470811cc6572b2b66"
+    },
+    {
+      "blind_id": "X10C-054",
+      "record_id": "f8r.21:1",
+      "folio": "f8r",
+      "iiif_service": "https://collections.library.yale.edu/iiif/2/1006090",
+      "info_url": "https://collections.library.yale.edu/iiif/2/1006090/info.json",
+      "native_size": [
+        2660,
+        3719
+      ],
+      "frozen_page_size": [
+        2048,
+        2863
+      ],
+      "linear_gain_x": 1.298828125,
+      "native_region": [
+        1559,
+        2575,
+        972,
+        737
+      ],
+      "native_target_bbox": [
+        1969,
+        2897,
+        152,
+        94
+      ],
+      "native_tight_region": [
+        1855,
+        2826,
+        380,
+        236
+      ],
+      "full_url": "https://collections.library.yale.edu/iiif/2/1006090/full/full/0/default.jpg",
+      "full_path": "data/x_v10c_ambiguity_resolution/source/yale/f8r_native.jpg",
+      "full_sha256": "2dfbbfab02ca4220a7ad1ade4b6be69d0401df9a64762e3883ffa87640e07e7e",
+      "color_region_url": "https://collections.library.yale.edu/iiif/2/1006090/1559,2575,972,737/full/0/default.tif",
+      "color_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-054_native_region.tif",
+      "color_region_sha256": "f76547b6b81a7d0347bdc9304a788f3c6dd4e4a120a8d19e72acfb4bf7943da0",
+      "gray_region_url": "https://collections.library.yale.edu/iiif/2/1006090/1559,2575,972,737/full/0/gray.png",
+      "gray_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-054_native_region_gray.png",
+      "gray_region_sha256": "a801e56c60ab746ff5722047782f7f77ce01439440607835abb48229829d283c",
+      "tight_color_url": "https://collections.library.yale.edu/iiif/2/1006090/1855,2826,380,236/full/0/default.tif",
+      "tight_color_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-054_native_tight.tif",
+      "tight_color_sha256": "af85a4da9441ce2248ed190ba366919aa4eb9226a46e35e59cbf7b66ba9a1baf",
+      "tight_gray_url": "https://collections.library.yale.edu/iiif/2/1006090/1855,2826,380,236/full/0/gray.png",
+      "tight_gray_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-054_native_tight_gray.png",
+      "tight_gray_sha256": "aab1171bd7928dc41889efd815e78facb5dcea772da7241dd20ef4ede41a2eb2",
+      "info_path": "data/x_v10c_ambiguity_resolution/source/yale/f8r_info.json",
+      "info_sha256": "2794d6f72ab8d114edbebc35937e351ae3bd9371bb1ce95ebc7fa6b07cf3ab4c",
+      "frozen_page_sha256": "72632125e98663915acefe1e51518c0843012ed7123afc1dc766d9f9f1c8b54e",
+      "frozen_crop_sha256": "555a9edad218f219b8b868c789d7246f4baf1a642c88b58706f18a446ab2f808"
+    },
+    {
+      "blind_id": "X10C-055",
+      "record_id": "f90v2.8:0",
+      "folio": "f90v",
+      "iiif_service": "https://collections.library.yale.edu/iiif/2/1006236",
+      "info_url": "https://collections.library.yale.edu/iiif/2/1006236/info.json",
+      "native_size": [
+        2737,
+        3752
+      ],
+      "frozen_page_size": [
+        2048,
+        2807
+      ],
+      "linear_gain_x": 1.33642578125,
+      "native_region": [
+        0,
+        2543,
+        1173,
+        765
+      ],
+      "native_target_bbox": [
+        481,
+        2876,
+        202,
+        98
+      ],
+      "native_tight_region": [
+        330,
+        2802,
+        504,
+        246
+      ],
+      "full_url": "https://collections.library.yale.edu/iiif/2/1006236/full/full/0/default.jpg",
+      "full_path": "data/x_v10c_ambiguity_resolution/source/yale/f90v_native.jpg",
+      "full_sha256": "f315895bc403e9b78bdda4d207789ed7b5a38654a47715e4571fdfc140c619c6",
+      "color_region_url": "https://collections.library.yale.edu/iiif/2/1006236/0,2543,1173,765/full/0/default.tif",
+      "color_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-055_native_region.tif",
+      "color_region_sha256": "28b85e03fa7fc7dd3949820ab2ca4bfc692016c2600c74d78521265d93ef5c62",
+      "gray_region_url": "https://collections.library.yale.edu/iiif/2/1006236/0,2543,1173,765/full/0/gray.png",
+      "gray_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-055_native_region_gray.png",
+      "gray_region_sha256": "27a633e4afd84371ef52f68ac4017a3962880ac67bbd57644195e5dbf0d991cb",
+      "tight_color_url": "https://collections.library.yale.edu/iiif/2/1006236/330,2802,504,246/full/0/default.tif",
+      "tight_color_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-055_native_tight.tif",
+      "tight_color_sha256": "fce59e2d5947dc01cb2dde0b307e430adc45f06e048dfee9f3e80b6127d719b4",
+      "tight_gray_url": "https://collections.library.yale.edu/iiif/2/1006236/330,2802,504,246/full/0/gray.png",
+      "tight_gray_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-055_native_tight_gray.png",
+      "tight_gray_sha256": "daf5e95ee934992b33628676f7ad8097313aeffab3574dd426147817d66d09f6",
+      "info_path": "data/x_v10c_ambiguity_resolution/source/yale/f90v_info.json",
+      "info_sha256": "8bc94d94ceda5f69d2f3ad99c935205327c8e44e004ed1d85fc9bfe2d9ff38e2",
+      "frozen_page_sha256": "638dfe9078e958ae94a963252a95377d6dada9b0edd7c9d3dd821aa6f44ca343",
+      "frozen_crop_sha256": "820748e41b7ce20ff84e660931d77824311fd50cb413e2c10e831691ffee8b87"
+    },
+    {
+      "blind_id": "X10C-058",
+      "record_id": "f96v.9:0",
+      "folio": "f96v",
+      "iiif_service": "https://collections.library.yale.edu/iiif/2/1006245",
+      "info_url": "https://collections.library.yale.edu/iiif/2/1006245/info.json",
+      "native_size": [
+        2858,
+        3697
+      ],
+      "frozen_page_size": [
+        2048,
+        2649
+      ],
+      "linear_gain_x": 1.3955078125,
+      "native_region": [
+        180,
+        733,
+        915,
+        647
+      ],
+      "native_target_bbox": [
+        572,
+        1024,
+        131,
+        64
+      ],
+      "native_tight_region": [
+        474,
+        976,
+        327,
+        160
+      ],
+      "full_url": "https://collections.library.yale.edu/iiif/2/1006245/full/full/0/default.jpg",
+      "full_path": "data/x_v10c_ambiguity_resolution/source/yale/f96v_native.jpg",
+      "full_sha256": "7aad14a896b53ddc78f3c7239d358389f215654c26fd9db7dfc43329439c1f15",
+      "color_region_url": "https://collections.library.yale.edu/iiif/2/1006245/180,733,915,647/full/0/default.tif",
+      "color_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-058_native_region.tif",
+      "color_region_sha256": "e94ebc7f49ce8d5dfa92bdca2208d595252c53c74c6a08cc968958e404e57621",
+      "gray_region_url": "https://collections.library.yale.edu/iiif/2/1006245/180,733,915,647/full/0/gray.png",
+      "gray_region_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-058_native_region_gray.png",
+      "gray_region_sha256": "f37da9c3291c6b27fb9d324571673574a7e8194a68fb68bf4b76c5feba8bb981",
+      "tight_color_url": "https://collections.library.yale.edu/iiif/2/1006245/474,976,327,160/full/0/default.tif",
+      "tight_color_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-058_native_tight.tif",
+      "tight_color_sha256": "3a31ca2d81dea3c215c6becbd675ef9627fc366f9ffe66192486f7378017f6eb",
+      "tight_gray_url": "https://collections.library.yale.edu/iiif/2/1006245/474,976,327,160/full/0/gray.png",
+      "tight_gray_path": "data/x_v10c_ambiguity_resolution/source/yale/X10C-058_native_tight_gray.png",
+      "tight_gray_sha256": "9b436e3a469834672eb623a041220fc438239ef4a25f1ff0f38fae58d4bdfa8e",
+      "info_path": "data/x_v10c_ambiguity_resolution/source/yale/f96v_info.json",
+      "info_sha256": "497d48bfff46534083ecde01345603c7947f771493573e2c09a5eaff37bf6953",
+      "frozen_page_sha256": "4302f7f5d27aa554379816a8043c3715858c7c57bb9a622d35173f319dc19cf4",
+      "frozen_crop_sha256": "e541d1e7b2836c4895b66cf54822819259a4f6f188984d7b5a68ce3e979a49a2"
+    }
+  ]
+}

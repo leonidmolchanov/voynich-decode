@@ -1,11 +1,11 @@
-Voynich Decode — licensing by material type
+Voynich Manuscript (Beinecke MS 408) research release — dual license
 
 1. Software
 
 Unless a file states otherwise, source code in `src/`, `scripts/`, and `tests/`
 is licensed under the MIT License:
 
-Copyright (c) 2026 Leonid Molchanov
+Copyright (c) 2026 Leonid Olegovich Molchanov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,18 +25,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-2. Original documentation and copyrightable project annotations
+2. Original text and project-produced tabular data
 
-Copyright (c) 2026 Leonid Molchanov
-
-Unless a file states otherwise, original documentation and copyrightable
-project annotations are licensed under
+Unless a file states otherwise, original documentation, annotations,
+correction tables, and project-produced result tables are licensed under
 Creative Commons Attribution 4.0 International (CC BY 4.0):
 https://creativecommons.org/licenses/by/4.0/
-
-This grant does not assert copyright over facts, ideas, mathematical methods,
-third-party transcription content or material in the public domain.
-For attribution guidance, see docs/ATTRIBUTION.md.
 
 3. Third-party material
 
@@ -45,3 +39,4 @@ file. Their source is Yale University Library and their applicable rights and
 terms remain with the source institution. Third-party transcriptions,
 publications, fonts, and imported algorithms retain their own licenses and
 attribution requirements. See `docs/DATA_PROVENANCE.md`.
+

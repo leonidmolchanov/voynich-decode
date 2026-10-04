@@ -1,0 +1,23 @@
+{
+  "accepted_additions": 54,
+  "accepted_additions_path": "MASTER/accepted/strict_anonymous_factor_v21_additions.tsv",
+  "accepted_additions_sha256": "595dd19388df52e0ffe680529adc150552085b9439a3fea8a50f03a795d1755d",
+  "accepted_at": "2026-10-01T22:02:14+03:00",
+  "accepted_core_path": "MASTER/accepted/strict_anonymous_factor_v21.tsv",
+  "accepted_core_rows": 22106,
+  "accepted_core_sha256": "1b42f97edc5c93720e88a1d9df7fe27bf18d26eb671a3b550ab9e9dbafe0ad92",
+  "candidate_manifest_sha256": "2770be2bbe83ef795584ac0b2ade21aa5fb38de0dc5ff29fbaca5f2c7554bf12",
+  "component_gate_audit_sha256": "623475223b2c48e83ef91af5f67dd1ed716a2bcec533d8d3d54a7557370adf56",
+  "component_gate_sha256": "8cab48247a59287d462af8f94e6f6e09a85c6b7d885bef40987fd32cfa747d61",
+  "coverage_percent": 92.6526677564022,
+  "denominator": 23859,
+  "gain_percentage_points": 0.22632968691059976,
+  "independent_candidate_audit_sha256": "3f81151008f625238b20ffecc42a037815466efd5fdc2e2d44b931a3f80f6859",
+  "meaning": "anonymous strict-factor coverage, not plaintext decipherment",
+  "official_plaintext_claim": false,
+  "previous_core_path": "MASTER/accepted/strict_anonymous_factor_v20.tsv",
+  "previous_core_sha256": "70e7f7316c78030a4e9ebedd48178b23b24f86e2570d118917fa3c6af1d92302",
+  "problems": [],
+  "schema": "STRICT_V21_V43_BASELINE_EXACT_SURFACE_RELEASE_V1",
+  "status": "ACCEPTED_AFTER_V43_BASELINE_EXACT_SURFACE_MATCHED_NULL_AND_INDEPENDENT_REPLAYS"
+}

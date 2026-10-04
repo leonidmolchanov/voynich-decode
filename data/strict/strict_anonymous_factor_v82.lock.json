@@ -1,0 +1,21 @@
+{
+  "accepted_additions": 1,
+  "accepted_additions_path": "MASTER/accepted/strict_anonymous_factor_v82_additions.tsv",
+  "accepted_additions_sha256": "b311537101e71c60ff78f32f4594f42f5f847b0c21fec03b42ac60fe6241d662",
+  "accepted_at": "2026-10-04T07:17:00+03:00",
+  "accepted_core_path": "MASTER/accepted/strict_anonymous_factor_v82.tsv",
+  "accepted_core_rows": 23859,
+  "accepted_core_sha256": "8a81b7a611f0f033f1072e8a5e67d0e9c7411807eee39d3715d02336e4112c56",
+  "coverage_fraction": 1.0,
+  "coverage_percent": 100.0,
+  "denominator": 23859,
+  "meaning": "anonymous machine factor coverage, not plaintext decipherment",
+  "official_plaintext_claim": false,
+  "previous_core_path": "MASTER/accepted/strict_anonymous_factor_v81.tsv",
+  "previous_core_rows": 23858,
+  "previous_core_sha256": "c146bbe21cb65f7792d540bf02beeaec5ba626e16d9beac05b72452be442fe3b",
+  "release_audit_path": "MASTER/audits/strict_v82_v273_f27v_novel_interior_release_v1.json",
+  "release_audit_sha256": "f442263f69c9fbc953d3b6d89690f47d542b8d1e70e74f3ed10498157045b608",
+  "schema": "ACCEPTED_STRICT_ANONYMOUS_FACTOR_CORE_V82",
+  "status": "ACCEPTED_F27V_NOVEL_INTERIOR_PHYSICAL_IT_REPAIR"
+}

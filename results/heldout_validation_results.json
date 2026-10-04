@@ -1,0 +1,26 @@
+{
+  "schema": "heldout-validation-v1",
+  "method": "fit emission/copy tables on fold-0 (md5(folio)%2==0) pages; generate over fold-1 (unseen) page layout; compare key stats",
+  "train_tokens": 11655,
+  "train_pages": 92,
+  "test_tokens": 12204,
+  "real_test": {
+    "N": 12204,
+    "V": 1757,
+    "TTR": 0.14396919042936743,
+    "hapax": 0.6294820717131474,
+    "S8": 0.48697148475909535,
+    "exact_mol": 0.022496087636932706,
+    "edit1_body": 0.1572769953051643
+  },
+  "syn_test": {
+    "N": 12204,
+    "V": 2737,
+    "TTR": 0.22427073090789906,
+    "hapax": 0.5590062111801242,
+    "S8": 0.47132087840052445,
+    "exact_mol": 0.025821596244131457,
+    "edit1_body": 0.1619718309859155
+  },
+  "reading": "out-of-sample: copy/state structure transfers to unseen pages (exact_mol, edit1_body, S8 close); vocabulary concentration (V/TTR/hapax) is the honest structural miss. Sufficient-generator result, not overfit."
+}

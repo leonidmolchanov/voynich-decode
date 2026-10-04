@@ -1,0 +1,74 @@
+{
+  "arms": {
+    "arm_a": {
+      "checks": {
+        "beats_all_999_nulls": true,
+        "calls": true,
+        "error_leaf_concentration": true,
+        "precision": true,
+        "wilson": true
+      },
+      "null_max_correct": 639,
+      "null_median_correct": 601,
+      "null_min_correct": 561,
+      "observed": {
+        "calls": 1996,
+        "correct": 1994,
+        "error_physical_leaves": 2,
+        "errors": 2,
+        "max_error_leaf_share": 0.5,
+        "precision": 0.998997995991984,
+        "wilson_lower_95_one_sided": 0.9969766986048971
+      },
+      "pass": true,
+      "thresholds": {
+        "min_calls": 100,
+        "min_precision": 0.995,
+        "min_wilson": 0.99
+      }
+    },
+    "arm_b": {
+      "checks": {
+        "beats_all_999_nulls": true,
+        "calls": true,
+        "precision": true,
+        "wilson": true
+      },
+      "null_max_correct": 895,
+      "null_median_correct": 849,
+      "null_min_correct": 799,
+      "observed": {
+        "calls": 2921,
+        "correct": 2916,
+        "error_physical_leaves": 5,
+        "errors": 5,
+        "max_error_leaf_share": 0.2,
+        "precision": 0.9982882574460801,
+        "wilson_lower_95_one_sided": 0.9964877764518046
+      },
+      "pass": true,
+      "thresholds": {
+        "min_calls": 200,
+        "min_precision": 0.99,
+        "min_wilson": 0.985
+      }
+    }
+  },
+  "implementation_sha256": "940d8015af89cf0976ff395853d9b3ad9ed8a7fb7e3e033ddb28151dd7b4c00c",
+  "matched_strata_sha256": "57f23e21073a15d1d1dde52838e967bfa6e53134e2e88f60f1347f46d3cc6bc9",
+  "null_files": 999,
+  "null_merkle_sha256": "78f13db79d104fa52304e4755888e61e69a97bc35861a4e0304af7d114be32a8",
+  "observed_sha256": "d634d6d60db74fe71176d94b001e505d7d302a0ecd01fe9781db3b84cf37d026",
+  "passed_arms": [
+    "arm_a",
+    "arm_b"
+  ],
+  "protocol_sha256": "292ceb36253b9a66cbeeed46a8575362be624f63ad2a0f20139846a6b75e0634",
+  "schema": "STRICT_V2_BROAD_MATCHED_OOF_NULL_GATE_V1",
+  "source_audit_opened": false,
+  "status": "PASS_STRICT_V2_BROAD_OOF_NULL_AUTHORIZE_TARGET_INFERENCE_ONLY",
+  "strict_core_mutated": false,
+  "strict_promotion_authorized": false,
+  "supported_target_ids_sha256": "900852688d4a489949922f0f14945a3b21dee2c75631458a09160e92de5d1d69",
+  "target_inferred": false
+}

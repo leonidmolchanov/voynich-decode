@@ -1,0 +1,17 @@
+{
+  "arms": {
+    "arm_a": {
+      "calls": 1996,
+      "correct": 579
+    },
+    "arm_b": {
+      "calls": 2921,
+      "correct": 837
+    }
+  },
+  "index": 993,
+  "observed_sha256": "d634d6d60db74fe71176d94b001e505d7d302a0ecd01fe9781db3b84cf37d026",
+  "schema": "STRICT_V2_BROAD_MATCHED_NULL_V1",
+  "strict_core_mutated": false,
+  "target_inferred": false
+}

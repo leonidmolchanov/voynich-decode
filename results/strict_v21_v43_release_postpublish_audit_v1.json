@@ -1,0 +1,13 @@
+{
+  "accepted_rows": 22106,
+  "additions": 54,
+  "core_sha256": "1b42f97edc5c93720e88a1d9df7fe27bf18d26eb671a3b550ab9e9dbafe0ad92",
+  "coverage_percent": 92.6526677564022,
+  "lock_sha256": "4280bf58faba69e99c646f5b1cee9cada054fac5a3f09d24bfbaff44223d904d",
+  "official_plaintext_claim": false,
+  "problems": [],
+  "registry_sha256": "cacf7581ff0cfa16af31263137e242c34ece8d00969f15c8c587847a068bedf5",
+  "release_sha256": "5b54ceed07f5687522dc64a52882b82547f17338743bd5e022e5fdeceafd293b",
+  "schema": "STRICT_V21_V43_RELEASE_POSTPUBLISH_AUDIT_V1",
+  "status": "PASS_OFFICIAL_STRICT_V21_ACTIVE"
+}

@@ -1,0 +1,55 @@
+decision_id	scope	locator	position_or_record	observed	accepted_or_candidates	status	applied_to_corrected_zl3b	applied_to_strict_core	evidence
+ZL3B-0001	RAW_ZL3B_SOURCE	f115r.23	6	checthy	checkhy	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	IT2a=checkhy;GC2a=1cH9->checkhy;FG2a=TCDZG->chekhy
+ZL3B-0002	RAW_ZL3B_SOURCE	f14v.3	7	ykhhy	ykchy	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	IT2a=ykchy;FG2a=GDTG->ykchy;CD2a=9FS9->ykchy
+ZL3B-0003	RAW_ZL3B_SOURCE	f108r.10	4	ykeol	yteol	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	IT2a=yteol;GC2a=9kcoe->yteol;FG2a=GHCOE->yteol
+ZL3B-0004	RAW_ZL3B_SOURCE	f6v.18	2	ithor	cthor	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	IT2a=cthor;GC2a=Koy->cthor;CD2a=QOR->cthor;FG2a=HZOR->thor
+ZL3B-0005	RAW_ZL3B_SOURCE	f75r.2	4	qolchhdy	qolchedy	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	IT2a=qolchedy;GC2a=4oe1c89->qolchedy;FG2a=4OETC8G->qolchedy;CD2a=4OESC89->qolchedy
+ZL3B-0006	RAW_ZL3B_SOURCE	f114r.35	4	qokohey	qokchey	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	Blind CUDA OCR 3/3=qokchey; registered Yale scan shows ch bench after qok
+ZL3B-0007	RAW_ZL3B_SOURCE	f40r.2	6	okas	okos	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	Blind CUDA OCR 3/3=okos; registered Yale scan shows middle o
+ZL3B-0008	RAW_ZL3B_SOURCE	f40v.2	3	arag	aram	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	Blind CUDA OCR 3/3=aram; registered Yale scan shows terminal m-form
+ZL3B-0009	RAW_ZL3B_SOURCE	f42r.6	1	ihar	char	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	Blind CUDA OCR 3/3=char; registered Yale scan shows initial ch bench
+ZL3B-0010	RAW_ZL3B_SOURCE	f77r.25	1	qokar	qokor	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	Blind CUDA OCR 3/3=qokor; registered Yale scan shows middle o
+ZL3B-0011	RAW_ZL3B_SOURCE	f81r.18	5	oror	orar	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	Blind CUDA OCR 3/3=orar; registered Yale scan shows central a
+ZL3B-0012	RAW_ZL3B_SOURCE	f8v.3	8	dolas	dolar	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	Blind CUDA OCR 3/3=dolar; registered Yale scan shows terminal r-form
+ZL3B-0013	RAW_ZL3B_SOURCE	f55r.9	10	kag	kam	ACCEPTED_CORRECTION	yes	via_machine_tape_or_later_core	Yale 2048px registered crop X7C-15; same-page m comparators olkam/olkardam; Takahashi=kam; IT2a/GC2a/FG2a factor a=>S5; Attention OOF 3/3 and CTC OOF 3/3=kam
+X10B-001	ALIGNED_REFERENCE	f102r2.18	f102r2.18:0	otol	okol	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	4096px Yale crop: second glyph has EVA k single-loop gallows form, not t.
+X10B-002	ALIGNED_REFERENCE	f104v.14	f104v.14:0	ytohedy	ytchedy	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Registered crop shows connected tch/bench sequence; no separate o after t.
+X10B-003	ALIGNED_REFERENCE	f106r.16	f106r.16:0	soin	sain	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Second glyph is open EVA a-form rather than closed o-form.
+X10B-004	ALIGNED_REFERENCE	f106v.45	f106v.45:7	rasal	raral	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Central disputed sign matches curved EVA r-form rather than s-form.
+X10B-005	ALIGNED_REFERENCE	f108v.16	f108v.16:2	qokeeal	qokeeol	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Penultimate disputed sign is a closed o before terminal l.
+X10B-006	ALIGNED_REFERENCE	f111v.18	f111v.18:0	tais	tair	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Terminal sign has EVA r curl, not extended s-form.
+X10B-007	ALIGNED_REFERENCE	f114v.26	f114v.26:1	chopcheod	cheopcheod	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	An e-stroke is visibly present between initial ch and o.
+X10B-008	ALIGNED_REFERENCE	f116r.49	f116r.49:9	arom	aram	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Disputed third sign is open a-form, not closed o.
+X10B-009	ALIGNED_REFERENCE	f22r.2	f22r.2:7	okaiin	otaiin	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Second sign matches EVA t gallows in the same hand.
+X10B-010	ALIGNED_REFERENCE	f24r.17	f24r.17:3	cthoj	cthom	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Terminal sign is the extended m-form, not compact j.
+X10B-011	ALIGNED_REFERENCE	f25r.2	f25r.2:6	shachy	chy	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	2709px coordinate box contains only the short chy token; reference includes preceding material.
+X10B-012	ALIGNED_REFERENCE	f31r.13	f31r.13:2	otedy	okedy	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Second sign has EVA k gallows form.
+X10B-013	ALIGNED_REFERENCE	f41v.6	f41v.6:0	tadaiin	todaiin	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Sign after initial t is visibly closed o, not open a.
+X10B-014	ALIGNED_REFERENCE	f52r.2	f52r.2:2	ykoldy	ytoldy	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	2826px crop shows EVA t gallows after y, not k.
+X10B-015	ALIGNED_REFERENCE	f52v.13	f52v.13:3	daiig	daiim	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Terminal sign has long m-form rather than compact g-form.
+X10B-016	ALIGNED_REFERENCE	f75r.11	f75r.11:1	qokair	qokain	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Terminal minim sequence ends in n-form, not r.
+X10B-017	ALIGNED_REFERENCE	f75r.34	f75r.34:9	oltedy	olkedy	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Central gallows matches EVA k rather than t.
+X10B-018	ALIGNED_REFERENCE	f75r.36	f75r.36:6	dardardy	dy	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Exact box contains only two visible glyphs d-y; reference is a shifted long token.
+X10B-019	ALIGNED_REFERENCE	f76r.53	f76r.53:8	dshdy	dshedy	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	An e-stroke is visibly present between sh and d.
+X10B-020	ALIGNED_REFERENCE	f77v.29	f77v.29:0	tchadchy	dchy	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Exact box contains short d-ch-y token; reference includes preceding material.
+X10B-021	ALIGNED_REFERENCE	f77v.39	f77v.39:7	qotal	qokal	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Central gallows has EVA k form rather than t.
+X10B-022	ALIGNED_REFERENCE	f79r.42	f79r.42:1	okaio	okain	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Terminal sign is n/minim closure, not a closed o.
+X10B-023	ALIGNED_REFERENCE	f80r.30	f80r.30:7	dainol	ol	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Exact box contains only o-l; reference includes preceding dain.
+X10B-024	ALIGNED_REFERENCE	f80v.2	f80v.2:7	doly	daly	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Second sign is open a-form, not closed o.
+X10B-025	ALIGNED_REFERENCE	f82v.10	f82v.10:5	qotalchedy	shedy	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Exact box contains the five-glyph shedy token; reference includes preceding token material.
+X10B-026	ALIGNED_REFERENCE	f86v4.6	f86v4.6:0	ycheoltar	tar	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	4096px exact box contains only t-a-r; reference includes preceding ycheol.
+X10B-027	ALIGNED_REFERENCE	f90r1.6	f90r1.6:7	qokeos	qokeor	ACCEPTED_CORRECTION	no_alignment_layer_only	yes	Terminal sign has EVA r curl rather than s-form.
+X10C-002	NONCORE_VISUAL_RESOLUTION	f102r2.20	f102r2.20:2	cheos	cheor	VISUALLY_RESOLVED_CANDIDATE_NONCORE	no	no	ZL/RF read final s; IT/VT and FSG-form read final r; the branches are split. | Native 4x master shows the final tall returning r-stroke matching same-panel ycheor/yteor and not the compact s endings in qoos/kockhas/soeees.
+X10C-017	NONCORE_VISUAL_RESOLUTION	f13r.1	f13r.1:8	dchg	dchg	VISUALLY_RESOLVED_REFERENCE_NONCORE	no	no	ZL/RF read g; IT/VT read m; GC/FG/CD preserve independent formal encodings. | Terminal has a high loop and long descending return matching Hand-1 g analogs amg/arg/chekeg, unlike the low compact m endings oldam/qodam.
+X10C-029	NONCORE_VISUAL_RESOLUTION	f66r.38	f66r.38:0	@172;	@172;	VISUALLY_RESOLVED_REFERENCE_NONCORE	no	no	ZL/RF encode a special sign; GC independently uses special @203; FSG is ?, while IT/VT reduce it to r. | The isolated angled/forked sign differs from every same-page ordinary r comparator at f66r.35:0, .44:0, .59:5 and .75:10; @172 is retained as a glyph ID, not a semantic value.
+X10C-052	NONCORE_VISUAL_RESOLUTION	f85r1.6	f85r1.6:0	roraiin	{rorain|roraiin}	UNRESOLVED_CANDIDATE_SET_NONCORE	no	no	All readable branches support initial r: ZL/RF roraiin, IT/VT rorain, GC/FG formal readings likewise begin r; only minim count splits. | Initial sign matches same-page r in raiin/raraiiin rather than the s onset proposed by the candidate; faint adjacent minims do not support a reliable one-versus-two-i singleton.
+X10C-054	NONCORE_VISUAL_RESOLUTION	f8r.21	f8r.21:1	saim	sair	VISUALLY_RESOLVED_CANDIDATE_NONCORE	no	no	ZL/RF read m; IT/VT read r; FSG/Currier formal readings end in their r-like K code. | Target is graphically the same as the same-page sair at f8r.19:0, including the tall returning final r; it does not match compact Hand-1 terminal m analogs.
+X10C-055	NONCORE_VISUAL_RESOLUTION	f90v2.8	f90v2.8:0	teeas	{teeos|teeas}	UNRESOLVED_CANDIDATE_SET_NONCORE	no	no	IT/VT read o; ZL and the GC/FSG formal forms support a; RF marks the disputed glyph as @221. | Native 1.34x RGB/gray preserves only broken strokes at the disputed position; comparisons with same-page keeos/ikheeos and a-forms do not yield a unique closure.
+X10C-058	NONCORE_VISUAL_RESOLUTION	f96v.9	f96v.9:0	oeol	{oeol|aeol|eol}	UNRESOLVED_CANDIDATE_SET_NONCORE	no	no	No transcription supports chol: ZL oeol, RF aeol, IT/VT eol, and GC/FSG formal readings preserve a non-ch onset. | The initial ink lacks the connected ch bench seen in same-page chor/cheor; its faint first component cannot distinguish o, a, or omission, so only the non-ch candidate set is justified.
+AMBIG-0001	PALEOGRAPHIC_AMBIGUITY	f30v.7	0	chakchy	chokchy	OPEN_EXCLUDED	no	excluded	IT/GC/FG and scan favor o; Currier and ZL primary favor a; do not force a correction.
+AMBIG-0002	PALEOGRAPHIC_AMBIGUITY	f79r.19	8	shoty	shoky	OPEN_EXCLUDED	no	excluded	ZL explicitly records t:k; IT/GC/FG/CD unanimously use k, but the manuscript stroke remains the object of the disagreement.
+AMBIG-0003	PALEOGRAPHIC_AMBIGUITY	f6v.19	1	kchos	kchor	OPEN_EXCLUDED	no	excluded	ZL and IT read final s; GC/FG/CD read final r; majority vote alone is not a palaeographic proof.
+AMBIG-0004	PALEOGRAPHIC_AMBIGUITY	f39v.5	13	ofchy	opchy	OPEN_EXCLUDED	no	excluded	ZL and CD read f; IT/GC/FG read p; the scan shows no separate erasure or insertion and a 3:2 vote cannot establish identity.
+AMBIG-0005	PALEOGRAPHIC_AMBIGUITY	f76r.23	10	olaiin	olain	OPEN_EXCLUDED	no	excluded	ZL preserves two internal i; IT/GC/CD preserve one; FG is not a qualified full mapping. Minims are visually adjacent and no scribal correction is visible.
+AMBIG-0006	PALEOGRAPHIC_AMBIGUITY	f79v.18	5	lcheey	lsheey	OPEN_EXCLUDED	no	excluded	ZL and CD read ch; IT/GC/FG read sh; the scan does not justify resolving the 3:2 split by majority.
+AMBIG-0007	PALEOGRAPHIC_AMBIGUITY	f49v.42	7	daisin	dairin or daiin	OPEN_EXCLUDED	no	excluded	Blind CUDA OCR 3/3=daiin; external coordinate reading=dairin; registered scan contains a faint middle sign

@@ -1,0 +1,135 @@
+{
+  "schema": "ZL3B_CORRECTED_VIEW_V13",
+  "status": "ACCEPTED_CORRECTION_OVERLAY_RENDERED",
+  "source_path": "SOURCES/transcriptions/ZL3b-n.txt",
+  "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "correction_overlay_path": "MASTER/accepted/transcriptions/ZL3b_corrections_v13.tsv",
+  "correction_overlay_sha256": "414678ea8e872a3829db2c0791964b43f9575775ff84e4a36284a3bf4db6bc82",
+  "ambiguity_register_path": "MASTER/reference/transcriptions/ZL3b_ambiguities_v7.tsv",
+  "ambiguity_register_sha256": "b43a6a023ff4698256f418dd74cba783d8bb48cb24e45819dc3f3d496473edc7",
+  "applied_correction_count": 13,
+  "unresolved_ambiguity_count": 7,
+  "unresolved_ambiguities_modified": false,
+  "output_path": "MASTER/accepted/transcriptions/ZL3b_corrected_v13.txt",
+  "output_sha256": "146334424138cd8ee7bd745ea221187fd4f6006a780e746cb3cf35457c3361b6",
+  "source_mutated": false,
+  "applied": [
+    {
+      "correction_id": "ZL3B-0004",
+      "locus": "f6v.18",
+      "position_zero_based": 2,
+      "raw_source_token": "{ith}or",
+      "normalized_source_token": "ithor",
+      "corrected_surface": "cthor",
+      "source_line_number": 306
+    },
+    {
+      "correction_id": "ZL3B-0012",
+      "locus": "f8v.3",
+      "position_zero_based": 8,
+      "raw_source_token": "dolas",
+      "normalized_source_token": "dolas",
+      "corrected_surface": "dolar",
+      "source_line_number": 394
+    },
+    {
+      "correction_id": "ZL3B-0002",
+      "locus": "f14v.3",
+      "position_zero_based": 7,
+      "raw_source_token": "{ykhh}y",
+      "normalized_source_token": "ykhhy",
+      "corrected_surface": "ykchy",
+      "source_line_number": 594
+    },
+    {
+      "correction_id": "ZL3B-0007",
+      "locus": "f40r.2",
+      "position_zero_based": 6,
+      "raw_source_token": "ok[a:o]s",
+      "normalized_source_token": "okas",
+      "corrected_surface": "okos",
+      "source_line_number": 1688
+    },
+    {
+      "correction_id": "ZL3B-0008",
+      "locus": "f40v.2",
+      "position_zero_based": 3,
+      "raw_source_token": "ara[g:m]",
+      "normalized_source_token": "arag",
+      "corrected_surface": "aram",
+      "source_line_number": 1709
+    },
+    {
+      "correction_id": "ZL3B-0009",
+      "locus": "f42r.6",
+      "position_zero_based": 1,
+      "raw_source_token": "[{ih}:ch]ar<$>",
+      "normalized_source_token": "ihar",
+      "corrected_surface": "char",
+      "source_line_number": 1781
+    },
+    {
+      "correction_id": "ZL3B-0013",
+      "locus": "f55r.9",
+      "position_zero_based": 10,
+      "raw_source_token": "ka[g:m]",
+      "normalized_source_token": "kag",
+      "corrected_surface": "kam",
+      "source_line_number": 2404
+    },
+    {
+      "correction_id": "ZL3B-0005",
+      "locus": "f75r.2",
+      "position_zero_based": 4,
+      "raw_source_token": "qol{chh}dy",
+      "normalized_source_token": "qolchhdy",
+      "corrected_surface": "qolchedy",
+      "source_line_number": 3983
+    },
+    {
+      "correction_id": "ZL3B-0010",
+      "locus": "f77r.25",
+      "position_zero_based": 1,
+      "raw_source_token": "qokar",
+      "normalized_source_token": "qokar",
+      "corrected_surface": "qokor",
+      "source_line_number": 4284
+    },
+    {
+      "correction_id": "ZL3B-0011",
+      "locus": "f81r.18",
+      "position_zero_based": 5,
+      "raw_source_token": "oror",
+      "normalized_source_token": "oror",
+      "corrected_surface": "orar",
+      "source_line_number": 4744
+    },
+    {
+      "correction_id": "ZL3B-0003",
+      "locus": "f108r.10",
+      "position_zero_based": 4,
+      "raw_source_token": "ykeol",
+      "normalized_source_token": "ykeol",
+      "corrected_surface": "yteol",
+      "source_line_number": 7476
+    },
+    {
+      "correction_id": "ZL3B-0006",
+      "locus": "f114r.35",
+      "position_zero_based": 4,
+      "raw_source_token": "qok[{oh}:ch]ey",
+      "normalized_source_token": "qokohey",
+      "corrected_surface": "qokchey",
+      "source_line_number": 8183
+    },
+    {
+      "correction_id": "ZL3B-0001",
+      "locus": "f115r.23",
+      "position_zero_based": 6,
+      "raw_source_token": "checthy",
+      "normalized_source_token": "checthy",
+      "corrected_surface": "checkhy",
+      "source_line_number": 8311
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "additions": 1,
+  "additions_sha256": "b311537101e71c60ff78f32f4594f42f5f847b0c21fec03b42ac60fe6241d662",
+  "core_sha256": "8a81b7a611f0f033f1072e8a5e67d0e9c7411807eee39d3715d02336e4112c56",
+  "coverage_percent": 100.0,
+  "denominator": 23859,
+  "lock_sha256": "9ef48a5eacb784b7644ff9f95526dfe628636917d07be2b0c91792c4c16bc49f",
+  "problems": [],
+  "registry_sha256": "c86a4deaedad4daed652b368426e1d057e7794389a57ac8ce0a238606741bab0",
+  "release_sha256": "f442263f69c9fbc953d3b6d89690f47d542b8d1e70e74f3ed10498157045b608",
+  "residual": 0,
+  "rows": 23859,
+  "schema": "STRICT_V82_V273_POSTPUBLISH_AUDIT_V1",
+  "status": "PASS_OFFICIAL_STRICT_V82_ACTIVE"
+}

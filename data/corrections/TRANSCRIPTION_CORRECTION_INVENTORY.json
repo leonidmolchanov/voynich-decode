@@ -1,0 +1,10 @@
+{
+  "schema": "TRANSCRIPTION_CORRECTION_INVENTORY_V1",
+  "accepted_raw_zl3b_corrections": 13,
+  "accepted_aligned_reference_corrections": 27,
+  "noncore_visual_resolutions": 7,
+  "open_excluded_ambiguities": 7,
+  "registered_decisions": 54,
+  "analysis_surface_restorations_not_source_corrections": 1910,
+  "raw_corrected_view_target": "MASTER/accepted/transcriptions/ZL3b_corrected_v13.txt"
+}

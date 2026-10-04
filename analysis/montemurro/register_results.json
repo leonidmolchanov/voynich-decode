@@ -1,0 +1,46 @@
+{
+ "surface": {
+  "real": {
+   "excess_AB": 0.23532358729397795,
+   "excess_Section": 0.3327654941269549,
+   "excess_Section_given_AB": 0.20439368609864084,
+   "frac_section_from_AB": 0.3857725944966467
+  },
+  "gen": {
+   "excess_AB": {
+    "mean": 0.17775313516860103,
+    "sd": 0.005406243396030021
+   },
+   "excess_Section": {
+    "mean": 0.5061758636096435,
+    "sd": 0.01303660466717467
+   },
+   "excess_Section_given_AB": {
+    "mean": 0.3720410649678807,
+    "sd": 0.009987960419679795
+   }
+  }
+ },
+ "molecule": {
+  "real": {
+   "excess_AB": 0.19357836528032535,
+   "excess_Section": 0.2722602722034997,
+   "excess_Section_given_AB": 0.17470765058648743,
+   "frac_section_from_AB": 0.35830648675799825
+  },
+  "gen": {
+   "excess_AB": {
+    "mean": 0.17533295577583133,
+    "sd": 0.006670466017014347
+   },
+   "excess_Section": {
+    "mean": 0.4731079432579114,
+    "sd": 0.014821110145498206
+   },
+   "excess_Section_given_AB": {
+    "mean": 0.3786185907413823,
+    "sd": 0.011821849522060683
+   }
+  }
+ }
+}

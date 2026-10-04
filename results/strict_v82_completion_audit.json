@@ -1,0 +1,50 @@
+{
+  "changed_old_ids": [],
+  "checks": {
+    "addition_is_exact_new_id": true,
+    "additions_sha_matches_lock": true,
+    "core_ids_equal_denominator_ids": true,
+    "core_ids_unique": true,
+    "core_rows_23859": true,
+    "core_sha_matches_lock": true,
+    "denominator_ids_unique": true,
+    "denominator_rows_23859": true,
+    "exactly_one_new_id": true,
+    "lock_plaintext_claim_false": true,
+    "lock_rows_and_coverage_exact": true,
+    "post_counts_exact": true,
+    "post_hashes_exact": true,
+    "post_problems_empty": true,
+    "post_status_exact": true,
+    "registry_copies_byte_equal": true,
+    "registry_single_active_core_v82": true,
+    "registry_single_active_lock_v82": true,
+    "registry_state_exact": true,
+    "release_problems_empty": true,
+    "release_sha_matches_lock": true,
+    "residual_zero": true,
+    "target_factor_exact": true,
+    "target_surface_exact": true,
+    "v81_is_unchanged_subset": true,
+    "v81_rows_23858": true
+  },
+  "coverage_percent": 100.0,
+  "denominator": 23859,
+  "hashes": {
+    "additions_sha256": "b311537101e71c60ff78f32f4594f42f5f847b0c21fec03b42ac60fe6241d662",
+    "core_sha256": "8a81b7a611f0f033f1072e8a5e67d0e9c7411807eee39d3715d02336e4112c56",
+    "lock_sha256": "9ef48a5eacb784b7644ff9f95526dfe628636917d07be2b0c91792c4c16bc49f",
+    "postpublish_sha256": "21176b67d4b38e8293a6dd2ed7fed4c7a1afb6b642acbd91c807ea12afadf721",
+    "registry_sha256": "43e37970494ba936ee3eb5412aefd1d264992947ac32cfec491087c60efdcb2b",
+    "release_sha256": "f442263f69c9fbc953d3b6d89690f47d542b8d1e70e74f3ed10498157045b608"
+  },
+  "meaning": "anonymous machine factor coverage, not plaintext decipherment",
+  "new_ids": [
+    "f27v.7:4"
+  ],
+  "problems": [],
+  "residual": 0,
+  "rows": 23859,
+  "schema": "STRICT_V82_COMPLETION_AUDIT_V1",
+  "status": "PASS_OFFICIAL_STRICT_100_COMPLETE"
+}

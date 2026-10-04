@@ -1,0 +1,192 @@
+================================================================================
+FULL_state  V=24 n_lines=4007 n_tokens=23859
+  real: H1=2.1650 H2=2.0935 MI1=0.0137 (0.63% of H1)  repeat_rate=0.3492 heaps=0.3706  burstiness=0.0104  ttr=0.00101
+  vs iid:
+    MI1            real=0.0137 null_mean=0.0057 sd=0.0007 z=  11.23 p=0.005
+    repeat_rate    real=0.3492 null_mean=0.3056 sd=0.0036 z=  12.13 p=0.005
+    heaps          real=0.3706 null_mean=0.2320 sd=0.0478 z=   2.90 p=0.015
+    burstiness     real=0.0104 null_mean=-0.1003 sd=0.0035 z=  31.77 p=0.005
+    MI_boundary    real=0.0374 null_mean=0.0165 sd=0.0028 z=   7.48 p=0.005
+  vs perm:
+    MI1            real=0.0137 null_mean=0.0136 sd=0.0010 z=   0.06 p=0.453
+    repeat_rate    real=0.3492 null_mean=0.3447 sd=0.0023 z=   1.93 p=0.045
+    heaps          real=0.3706 null_mean=0.3706 sd=0.0000 z=   0.00 p=1.000
+    burstiness     real=0.0104 null_mean=0.0109 sd=0.0019 z=  -0.26 p=0.587
+    MI_boundary    real=0.0374 null_mean=0.0360 sd=0.0034 z=   0.42 p=0.318
+  vs markov1:
+    MI1            real=0.0137 null_mean=0.0170 sd=0.0016 z=  -2.07 p=0.990
+    repeat_rate    real=0.3492 null_mean=0.3468 sd=0.0039 z=   0.63 p=0.294
+    heaps          real=0.3706 null_mean=0.2418 sd=0.0535 z=   2.41 p=0.020
+    burstiness     real=0.0104 null_mean=-0.0776 sd=0.0039 z=  22.73 p=0.005
+    MI_boundary    real=0.0374 null_mean=0.0198 sd=0.0026 z=   6.75 p=0.005
+  MI at lag d=1..10 (real / markov1 z,p):
+    lag 1  n= 19852  real= 0.0137  markov1_z=  -2.07 p=0.990
+    lag 2  n= 16089  real= 0.0165  markov1_z=  14.20 p=0.005
+    lag 3  n= 12571  real= 0.0163  markov1_z=  10.04 p=0.005
+    lag 4  n=  9390  real= 0.0182  markov1_z=   7.36 p=0.005
+    lag 5  n=  6641  real= 0.0192  markov1_z=   5.05 p=0.005
+    lag 6  n=  4391  real= 0.0218  markov1_z=   2.41 p=0.015
+    lag 7  n=  2692  real= 0.0234  markov1_z=   0.13 p=0.443
+    lag 8  n=  1489  real= 0.0457  markov1_z=   1.70 p=0.060
+    lag 9  n=   742  real= 0.0746  markov1_z=   1.39 p=0.100
+    lag10  n=   316  real= 0.1326  markov1_z=   0.73 p=0.244
+================================================================================
+FULL_body  V=1819 n_lines=4007 n_tokens=23859
+  real: H1=7.2886 H2=5.0373 MI1=2.1118 (28.97% of H1)  repeat_rate=0.0418 heaps=0.6071  burstiness=0.1896  ttr=0.07624
+  vs iid:
+    MI1            real=2.1118 null_mean=1.9059 sd=0.0221 z=   9.31 p=0.005
+    repeat_rate    real=0.0418 null_mean=0.0237 sd=0.0012 z=  15.66 p=0.005
+    heaps          real=0.6071 null_mean=0.5082 sd=0.0110 z=   8.99 p=0.005
+    burstiness     real=0.1896 null_mean=-0.0215 sd=0.0032 z=  65.20 p=0.005
+    MI_boundary    real=3.2163 null_mean=2.9166 sd=0.0448 z=   6.69 p=0.005
+  vs perm:
+    MI1            real=2.1118 null_mean=2.0975 sd=0.0091 z=   1.57 p=0.040
+    repeat_rate    real=0.0418 null_mean=0.0380 sd=0.0011 z=   3.46 p=0.005
+    heaps          real=0.6071 null_mean=0.6071 sd=0.0001 z=  -0.05 p=0.607
+    burstiness     real=0.1896 null_mean=0.1895 sd=0.0003 z=   0.66 p=0.269
+    MI_boundary    real=3.2163 null_mean=3.0757 sd=0.0362 z=   3.89 p=0.005
+  vs markov1:
+    MI1            real=2.1118 null_mean=2.4413 sd=0.0265 z= -12.45 p=1.000
+    repeat_rate    real=0.0418 null_mean=0.0423 sd=0.0015 z=  -0.36 p=0.657
+    heaps          real=0.6071 null_mean=0.5054 sd=0.0125 z=   8.13 p=0.005
+    burstiness     real=0.1896 null_mean=-0.0113 sd=0.0032 z=  61.99 p=0.005
+    MI_boundary    real=3.2163 null_mean=2.8935 sd=0.0464 z=   6.96 p=0.005
+  MI at lag d=1..10 (real / markov1 z,p):
+    lag 1  n= 19852  real= 2.1118  markov1_z= -12.45 p=1.000
+    lag 2  n= 16089  real= 2.1143  markov1_z=   4.58 p=0.005
+    lag 3  n= 12571  real= 2.2463  markov1_z=   5.02 p=0.005
+    lag 4  n=  9390  real= 2.3845  markov1_z=   3.05 p=0.005
+    lag 5  n=  6641  real= 2.5315  markov1_z=   0.13 p=0.463
+    lag 6  n=  4391  real= 2.7072  markov1_z=  -2.38 p=1.000
+    lag 7  n=  2692  real= 2.8846  markov1_z=  -4.02 p=1.000
+    lag 8  n=  1489  real= 2.9734  markov1_z=  -6.67 p=1.000
+    lag 9  n=   742  real= 3.3338  markov1_z=  -5.56 p=1.000
+    lag10  n=   316  real= 3.7189  markov1_z=  -3.85 p=1.000
+================================================================================
+FULL_mol  V=2432 n_lines=4007 n_tokens=23859
+  real: H1=8.1613 H2=5.0427 MI1=2.9563 (36.22% of H1)  repeat_rate=0.0246 heaps=0.6306  burstiness=0.1975  ttr=0.10193
+  vs iid:
+    MI1            real=2.9563 null_mean=2.7777 sd=0.0288 z=   6.19 p=0.005
+    repeat_rate    real=0.0246 null_mean=0.0110 sd=0.0008 z=  18.01 p=0.005
+    heaps          real=0.6306 null_mean=0.5188 sd=0.0098 z=  11.36 p=0.005
+    burstiness     real=0.1975 null_mean=-0.0228 sd=0.0032 z=  68.27 p=0.005
+    MI_boundary    real=4.4485 null_mean=4.0033 sd=0.0583 z=   7.64 p=0.005
+  vs perm:
+    MI1            real=2.9563 null_mean=2.9928 sd=0.0091 z=  -4.03 p=1.000
+    repeat_rate    real=0.0246 null_mean=0.0226 sd=0.0008 z=   2.36 p=0.010
+    heaps          real=0.6306 null_mean=0.6306 sd=0.0001 z=   0.32 p=0.398
+    burstiness     real=0.1975 null_mean=0.1974 sd=0.0001 z=   1.66 p=0.050
+    MI_boundary    real=4.4485 null_mean=4.2589 sd=0.0360 z=   5.26 p=0.005
+  vs markov1:
+    MI1            real=2.9563 null_mean=3.4070 sd=0.0304 z= -14.84 p=1.000
+    repeat_rate    real=0.0246 null_mean=0.0240 sd=0.0011 z=   0.51 p=0.313
+    heaps          real=0.6306 null_mean=0.5181 sd=0.0114 z=   9.89 p=0.005
+    burstiness     real=0.1975 null_mean=-0.0146 sd=0.0035 z=  60.27 p=0.005
+    MI_boundary    real=4.4485 null_mean=3.9982 sd=0.0523 z=   8.62 p=0.005
+  MI at lag d=1..10 (real / markov1 z,p):
+    lag 1  n= 19852  real= 2.9563  markov1_z= -14.84 p=1.000
+    lag 2  n= 16089  real= 3.0022  markov1_z=   3.11 p=0.005
+    lag 3  n= 12571  real= 3.1513  markov1_z=   3.36 p=0.005
+    lag 4  n=  9390  real= 3.3295  markov1_z=   1.49 p=0.065
+    lag 5  n=  6641  real= 3.5224  markov1_z=  -0.86 p=0.811
+    lag 6  n=  4391  real= 3.7311  markov1_z=  -3.41 p=1.000
+    lag 7  n=  2692  real= 3.9067  markov1_z=  -5.53 p=1.000
+    lag 8  n=  1489  real= 4.0301  markov1_z=  -7.85 p=1.000
+    lag 9  n=   742  real= 4.4386  markov1_z=  -5.78 p=1.000
+    lag10  n=   316  real= 4.8836  markov1_z=  -3.46 p=1.000
+================================================================================
+STRICT_state  V=9 n_lines=3825 n_tokens=16684
+  real: H1=2.0976 H2=2.0431 MI1=0.0133 (0.63% of H1)  repeat_rate=0.3555 heaps=-0.0000  burstiness=0.0239  ttr=0.00054
+  vs iid:
+    MI1            real=0.0133 null_mean=0.0035 sd=0.0006 z=  16.62 p=0.005
+    repeat_rate    real=0.3555 null_mean=0.3114 sd=0.0049 z=   9.00 p=0.005
+    heaps          real=-0.0000 null_mean=0.0092 sd=0.0138 z=  -0.67 p=1.000
+    burstiness     real=0.0239 null_mean=-0.1018 sd=0.0044 z=  28.27 p=0.005
+    MI_boundary    real=0.0259 null_mean=0.0110 sd=0.0019 z=   8.00 p=0.005
+  vs perm:
+    MI1            real=0.0133 null_mean=0.0140 sd=0.0012 z=  -0.58 p=0.716
+    repeat_rate    real=0.3555 null_mean=0.3555 sd=0.0027 z=  -0.00 p=0.532
+    heaps          real=-0.0000 null_mean=-0.0000 sd=0.0000 z=  -1.00 p=1.000
+    burstiness     real=0.0239 null_mean=0.0257 sd=0.0017 z=  -1.04 p=0.881
+    MI_boundary    real=0.0259 null_mean=0.0201 sd=0.0029 z=   2.01 p=0.020
+  vs markov1:
+    MI1            real=0.0133 null_mean=0.0165 sd=0.0018 z=  -1.80 p=0.955
+    repeat_rate    real=0.3555 null_mean=0.3549 sd=0.0048 z=   0.12 p=0.433
+    heaps          real=-0.0000 null_mean=0.0078 sd=0.0115 z=  -0.68 p=1.000
+    burstiness     real=0.0239 null_mean=-0.0783 sd=0.0042 z=  24.50 p=0.005
+    MI_boundary    real=0.0259 null_mean=0.0113 sd=0.0020 z=   7.22 p=0.005
+  MI at lag d=1..10 (real / markov1 z,p):
+    lag 1  n= 12859  real= 0.0133  markov1_z=  -1.80 p=0.955
+    lag 2  n=  9454  real= 0.0157  markov1_z=  13.07 p=0.005
+    lag 3  n=  6570  real= 0.0200  markov1_z=  10.42 p=0.005
+    lag 4  n=  4281  real= 0.0155  markov1_z=   2.86 p=0.015
+    lag 5  n=  2588  real= 0.0282  markov1_z=   4.30 p=0.005
+    lag 6  n=  1428  real= 0.0368  markov1_z=   1.79 p=0.065
+    lag 7  n=   719  real= 0.0420  markov1_z=  -0.69 p=0.736
+    lag 8  n=   329  real= 0.0904  markov1_z=  -0.02 p=0.483
+    lag 9  n=   121  real= 0.1836  markov1_z=  -0.10 p=0.517
+    lag10  n=    38  real= 0.4934  markov1_z=   0.80 p=0.234
+================================================================================
+STRICT_body  V=677 n_lines=3825 n_tokens=16684
+  real: H1=6.4862 H2=4.8825 MI1=1.5039 (23.19% of H1)  repeat_rate=0.0556 heaps=0.4519  burstiness=0.1973  ttr=0.04058
+  vs iid:
+    MI1            real=1.5039 null_mean=1.3075 sd=0.0200 z=   9.81 p=0.005
+    repeat_rate    real=0.0556 null_mean=0.0331 sd=0.0016 z=  13.95 p=0.005
+    heaps          real=0.4519 null_mean=0.3687 sd=0.0135 z=   6.18 p=0.005
+    burstiness     real=0.1973 null_mean=-0.0222 sd=0.0040 z=  55.21 p=0.005
+    MI_boundary    real=2.1422 null_mean=2.0340 sd=0.0331 z=   3.28 p=0.005
+  vs perm:
+    MI1            real=1.5039 null_mean=1.4419 sd=0.0087 z=   7.11 p=0.005
+    repeat_rate    real=0.0556 null_mean=0.0525 sd=0.0015 z=   1.99 p=0.055
+    heaps          real=0.4519 null_mean=0.4518 sd=0.0000 z=   0.37 p=0.766
+    burstiness     real=0.1973 null_mean=0.1972 sd=0.0003 z=   0.49 p=0.318
+    MI_boundary    real=2.1422 null_mean=2.2006 sd=0.0237 z=  -2.46 p=0.990
+  vs markov1:
+    MI1            real=1.5039 null_mean=1.8150 sd=0.0249 z= -12.50 p=1.000
+    repeat_rate    real=0.0556 null_mean=0.0575 sd=0.0023 z=  -0.82 p=0.786
+    heaps          real=0.4519 null_mean=0.3667 sd=0.0156 z=   5.46 p=0.005
+    burstiness     real=0.1973 null_mean=-0.0101 sd=0.0039 z=  53.37 p=0.005
+    MI_boundary    real=2.1422 null_mean=2.0052 sd=0.0360 z=   3.81 p=0.005
+  MI at lag d=1..10 (real / markov1 z,p):
+    lag 1  n= 12859  real= 1.5039  markov1_z= -12.50 p=1.000
+    lag 2  n=  9454  real= 1.5563  markov1_z=   3.98 p=0.005
+    lag 3  n=  6570  real= 1.7074  markov1_z=   2.24 p=0.015
+    lag 4  n=  4281  real= 1.8314  markov1_z=  -2.52 p=0.990
+    lag 5  n=  2588  real= 2.0716  markov1_z=  -3.99 p=1.000
+    lag 6  n=  1428  real= 2.3478  markov1_z=  -4.73 p=1.000
+    lag 7  n=   719  real= 2.5752  markov1_z=  -5.16 p=1.000
+    lag 8  n=   329  real= 2.8574  markov1_z=  -4.60 p=1.000
+    lag 9  n=   121  real= 3.1250  markov1_z=  -3.31 p=1.000
+    lag10  n=    38  real= 2.7549  markov1_z=  -3.40 p=1.000
+================================================================================
+STRICT_mol  V=952 n_lines=3825 n_tokens=16684
+  real: H1=7.3310 H2=5.0204 MI1=2.1963 (29.96% of H1)  repeat_rate=0.0329 heaps=0.4731  burstiness=0.2084  ttr=0.05706
+  vs iid:
+    MI1            real=2.1963 null_mean=2.0142 sd=0.0211 z=   8.64 p=0.005
+    repeat_rate    real=0.0329 null_mean=0.0150 sd=0.0011 z=  17.04 p=0.005
+    heaps          real=0.4731 null_mean=0.3911 sd=0.0126 z=   6.50 p=0.005
+    burstiness     real=0.2084 null_mean=-0.0225 sd=0.0036 z=  64.03 p=0.005
+    MI_boundary    real=3.1633 null_mean=2.9603 sd=0.0407 z=   4.98 p=0.005
+  vs perm:
+    MI1            real=2.1963 null_mean=2.1630 sd=0.0096 z=   3.46 p=0.005
+    repeat_rate    real=0.0329 null_mean=0.0313 sd=0.0012 z=   1.33 p=0.100
+    heaps          real=0.4731 null_mean=0.4731 sd=0.0001 z=  -0.26 p=0.781
+    burstiness     real=0.2084 null_mean=0.2081 sd=0.0001 z=   1.78 p=0.045
+    MI_boundary    real=3.1633 null_mean=3.2115 sd=0.0275 z=  -1.76 p=0.955
+  vs markov1:
+    MI1            real=2.1963 null_mean=2.6459 sd=0.0313 z= -14.37 p=1.000
+    repeat_rate    real=0.0329 null_mean=0.0332 sd=0.0016 z=  -0.18 p=0.562
+    heaps          real=0.4731 null_mean=0.3871 sd=0.0140 z=   6.15 p=0.005
+    burstiness     real=0.2084 null_mean=-0.0128 sd=0.0041 z=  53.65 p=0.005
+    MI_boundary    real=3.1633 null_mean=2.9454 sd=0.0435 z=   5.00 p=0.005
+  MI at lag d=1..10 (real / markov1 z,p):
+    lag 1  n= 12859  real= 2.1963  markov1_z= -14.37 p=1.000
+    lag 2  n=  9454  real= 2.2889  markov1_z=   1.76 p=0.045
+    lag 3  n=  6570  real= 2.4850  markov1_z=   0.38 p=0.378
+    lag 4  n=  4281  real= 2.6822  markov1_z=  -3.21 p=1.000
+    lag 5  n=  2588  real= 2.9665  markov1_z=  -5.18 p=1.000
+    lag 6  n=  1428  real= 3.2448  markov1_z=  -6.82 p=1.000
+    lag 7  n=   719  real= 3.5464  markov1_z=  -6.69 p=1.000
+    lag 8  n=   329  real= 3.9142  markov1_z=  -5.16 p=1.000
+    lag 9  n=   121  real= 4.3324  markov1_z=  -2.62 p=0.995
+    lag10  n=    38  real= 4.0106  markov1_z=  -1.48 p=0.915

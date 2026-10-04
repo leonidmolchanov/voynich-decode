@@ -1,0 +1,93 @@
+{
+ "free_choice_budget": {
+  "A": {
+   "p_copy": 0.6,
+   "H_decision": 0.971,
+   "H_lag": 8.161,
+   "copy_branch_bits": 11.346,
+   "L_freshbody": 7.397,
+   "L_state": 1.156,
+   "fresh_branch_bits": 8.553,
+   "TOTAL_bits_per_word": 11.2,
+   "free_fraction_from_fresh": 0.305
+  },
+  "B": {
+   "p_copy": 0.58,
+   "H_decision": 0.981,
+   "H_lag": 8.488,
+   "copy_branch_bits": 11.781,
+   "L_freshbody": 7.909,
+   "L_state": 0.922,
+   "fresh_branch_bits": 8.831,
+   "TOTAL_bits_per_word": 11.523,
+   "free_fraction_from_fresh": 0.322
+  }
+ },
+ "drivers": {
+  "H1_mol": 8.161,
+  "H1_state": 2.165,
+  "MI_prevstate_curstate_bits": 0.0134,
+  "MI_prevstate_frac_of_H1state": 0.0062,
+  "MI_prevmol_curmol_bits": 2.952,
+  "MI_linepos_state_bits": 0.0181,
+  "MI_linepos_blen_bits": 0.0071,
+  "copyable_within3_line": {
+   "exact": 0.0744,
+   "edit1": 0.2411,
+   "exact_or_edit1": 0.3155
+  },
+  "copyable_within3_page": {
+   "exact": 0.1018,
+   "edit1": 0.3168,
+   "exact_or_edit1": 0.4187
+  },
+  "periodicity": {
+   "period_mi_bits": {
+    "2": 0.0006,
+    "3": 0.0011,
+    "4": 0.002,
+    "5": 0.003,
+    "6": 0.0026,
+    "7": 0.0036,
+    "8": 0.0037,
+    "9": 0.0046,
+    "10": 0.0053,
+    "11": 0.005,
+    "12": 0.0049,
+    "13": 0.0056,
+    "14": 0.0071,
+    "15": 0.0064,
+    "16": 0.0067,
+    "17": 0.0075,
+    "18": 0.0074,
+    "19": 0.009,
+    "20": 0.009,
+    "21": 0.0086,
+    "22": 0.0089,
+    "23": 0.0094,
+    "24": 0.0087,
+    "25": 0.0103,
+    "26": 0.0105,
+    "27": 0.0109,
+    "28": 0.0119,
+    "29": 0.012,
+    "30": 0.0114
+   },
+   "period17_mi": 0.0075,
+   "period17_null_mean": 0.0079,
+   "period17_null_sd": 0.00057,
+   "period17_z": -0.72,
+   "max_period": 29,
+   "max_period_mi": 0.012
+  },
+  "empirical_bits_fed_per_word": {
+   "f_exact": 0.0744,
+   "f_edit1": 0.2411,
+   "f_fresh": 0.6845,
+   "H_fresh_subset": 8.641,
+   "H1_memoryless": 8.161,
+   "bits_fed_per_word": 7.379,
+   "note": "fraction 'fresh' priced at memoryless H1 of the non-locally-copyable subset; copies priced as local pick + optional single edit"
+  }
+ }
+}

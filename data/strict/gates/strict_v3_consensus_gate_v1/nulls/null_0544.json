@@ -1,0 +1,9 @@
+{
+  "calls": 2232,
+  "correct": 508,
+  "index": 544,
+  "residual_truth_opened": false,
+  "schema": "STRICT_V3_CONSENSUS_MATCHED_NULL_V1",
+  "strict_core_mutated": false,
+  "target_inferred": false
+}

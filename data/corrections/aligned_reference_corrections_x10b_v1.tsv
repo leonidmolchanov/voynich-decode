@@ -1,0 +1,28 @@
+blind_id	record_id	candidate_surface	reference_surface	decision	confidence	evidence
+X10B-001	f102r2.18:0	okol	otol	CANDIDATE_CONFIRMED	MEDIUM	4096px Yale crop: second glyph has EVA k single-loop gallows form, not t.
+X10B-002	f104v.14:0	ytchedy	ytohedy	CANDIDATE_CONFIRMED	HIGH	Registered crop shows connected tch/bench sequence; no separate o after t.
+X10B-003	f106r.16:0	sain	soin	CANDIDATE_CONFIRMED	MEDIUM	Second glyph is open EVA a-form rather than closed o-form.
+X10B-004	f106v.45:7	raral	rasal	CANDIDATE_CONFIRMED	MEDIUM	Central disputed sign matches curved EVA r-form rather than s-form.
+X10B-005	f108v.16:2	qokeeol	qokeeal	CANDIDATE_CONFIRMED	HIGH	Penultimate disputed sign is a closed o before terminal l.
+X10B-006	f111v.18:0	tair	tais	CANDIDATE_CONFIRMED	MEDIUM	Terminal sign has EVA r curl, not extended s-form.
+X10B-007	f114v.26:1	cheopcheod	chopcheod	CANDIDATE_CONFIRMED	HIGH	An e-stroke is visibly present between initial ch and o.
+X10B-008	f116r.49:9	aram	arom	CANDIDATE_CONFIRMED	MEDIUM	Disputed third sign is open a-form, not closed o.
+X10B-009	f22r.2:7	otaiin	okaiin	CANDIDATE_CONFIRMED	MEDIUM	Second sign matches EVA t gallows in the same hand.
+X10B-010	f24r.17:3	cthom	cthoj	CANDIDATE_CONFIRMED	HIGH	Terminal sign is the extended m-form, not compact j.
+X10B-011	f25r.2:6	chy	shachy	CANDIDATE_CONFIRMED	HIGH	2709px coordinate box contains only the short chy token; reference includes preceding material.
+X10B-012	f31r.13:2	okedy	otedy	CANDIDATE_CONFIRMED	MEDIUM	Second sign has EVA k gallows form.
+X10B-013	f41v.6:0	todaiin	tadaiin	CANDIDATE_CONFIRMED	HIGH	Sign after initial t is visibly closed o, not open a.
+X10B-014	f52r.2:2	ytoldy	ykoldy	CANDIDATE_CONFIRMED	MEDIUM	2826px crop shows EVA t gallows after y, not k.
+X10B-015	f52v.13:3	daiim	daiig	CANDIDATE_CONFIRMED	HIGH	Terminal sign has long m-form rather than compact g-form.
+X10B-016	f75r.11:1	qokain	qokair	CANDIDATE_CONFIRMED	HIGH	Terminal minim sequence ends in n-form, not r.
+X10B-017	f75r.34:9	olkedy	oltedy	CANDIDATE_CONFIRMED	MEDIUM	Central gallows matches EVA k rather than t.
+X10B-018	f75r.36:6	dy	dardardy	CANDIDATE_CONFIRMED	HIGH	Exact box contains only two visible glyphs d-y; reference is a shifted long token.
+X10B-019	f76r.53:8	dshedy	dshdy	CANDIDATE_CONFIRMED	HIGH	An e-stroke is visibly present between sh and d.
+X10B-020	f77v.29:0	dchy	tchadchy	CANDIDATE_CONFIRMED	HIGH	Exact box contains short d-ch-y token; reference includes preceding material.
+X10B-021	f77v.39:7	qokal	qotal	CANDIDATE_CONFIRMED	MEDIUM	Central gallows has EVA k form rather than t.
+X10B-022	f79r.42:1	okain	okaio	CANDIDATE_CONFIRMED	HIGH	Terminal sign is n/minim closure, not a closed o.
+X10B-023	f80r.30:7	ol	dainol	CANDIDATE_CONFIRMED	HIGH	Exact box contains only o-l; reference includes preceding dain.
+X10B-024	f80v.2:7	daly	doly	CANDIDATE_CONFIRMED	HIGH	Second sign is open a-form, not closed o.
+X10B-025	f82v.10:5	shedy	qotalchedy	CANDIDATE_CONFIRMED	HIGH	Exact box contains the five-glyph shedy token; reference includes preceding token material.
+X10B-026	f86v4.6:0	tar	ycheoltar	CANDIDATE_CONFIRMED	HIGH	4096px exact box contains only t-a-r; reference includes preceding ycheol.
+X10B-027	f90r1.6:7	qokeor	qokeos	CANDIDATE_CONFIRMED	MEDIUM	Terminal sign has EVA r curl rather than s-form.

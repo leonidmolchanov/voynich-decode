@@ -1,17 +1,17 @@
 cff-version: 1.2.0
-message: "Please cite this repository and the version used when building on its code, data, corrections or results."
-title: "Voynich Decode: verification code and selected research data"
-type: software
-version: "0.1.0"
-date-released: "2026-10-02"
+message: "If you use this release, please cite the article and the dataset version."
+title: "Structural investigation of the Voynich Manuscript (Beinecke MS 408)"
+type: dataset
 authors:
-  - family-names: "Molchanov"
-    given-names: "Leonid"
-    alias: "leonidmolchanov"
+  - family-names: Molchanov
+    given-names: Leonid Olegovich
+doi: "10.5281/zenodo.23140803"
+version: "0.2.0"
+date-released: 2026-10-04
+license: "MIT AND CC-BY-4.0"
 repository-code: "https://github.com/leonidmolchanov/voynich-decode"
-url: "https://github.com/leonidmolchanov/voynich-decode"
-abstract: "Verification scripts, two transcription corrections, seven unresolved readings, 19 aligned cells, and hash commitments for further research artifacts."
 keywords:
-  - Voynich manuscript
-  - transcription
-  - reproducibility
+  - Voynich Manuscript
+  - computational analysis
+  - transcription correction
+  - generative model
